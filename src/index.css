@@ -44,14 +44,13 @@ a {
   /* fullstack dev */
   font-size: 0.9rem;
   font-weight: 200;
-  color: #71d9f6;
+  color: #89d16a;
   margin: 0.2rem 0;
 }
 
 .info-container .blocked {
   /* a tag */
   display: block;
-  padding-bottom: 1rem;
   font-size: 0.7rem;
   font-weight: 200;
   margin: 0.7rem 0;
@@ -60,8 +59,25 @@ a {
 .info-container .btn {
   /* email & linkedin */
   background-color: red;
-  padding: 8px;
+  padding: 0.5rem 1.2rem;
   border-radius: 6px;
-  margin: 2rem 0.5rem;
-  font-size: 1rem;
+  margin: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  display: inline-flex;
+  align-items: center;
+}
+
+.info-container .email {
+  background-color: white;
+  color: #374151;
+}
+
+.info-container .linkedin {
+  background-color: #5093e2;
+  color: white;
+}
+
+.btn span {
+  padding-left: 0.5rem;
 }

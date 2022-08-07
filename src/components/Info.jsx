@@ -1,3 +1,6 @@
+import { HiMail } from "react-icons/hi";
+import { FaLinkedin } from "react-icons/fa";
+
 export default function Info() {
   return (
     <div className="info-container">
@@ -7,11 +10,11 @@ export default function Info() {
       <a href="beeperdev.com" className="blocked">
         ericadayton.website
       </a>
-      <a href="mailto:beeperdev.erica@gmail.com" className="btn">
-        <span>icon</span>Email
+      <a href="mailto:beeperdev.erica@gmail.com" className="btn email">
+        <HiMail /> <span>Email</span>
       </a>
-      <a href="https://www.linkedin.com/in/beeperdev/" className="btn">
-        <span>icon</span>LinkedIn
+      <a href="https://www.linkedin.com/in/beeperdev/" className="btn linkedin">
+        <FaLinkedin /> <span>LinkedIn</span>
       </a>
     </div>
   );
