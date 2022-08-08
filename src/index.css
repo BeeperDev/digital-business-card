@@ -20,7 +20,6 @@ a {
   width: 300px;
   border-radius: 15px;
   margin: 0 auto;
-  height: 600px;
   background-color: #1a1b21;
 }
 
@@ -80,4 +79,20 @@ a {
 
 .btn span {
   padding-left: 0.5rem;
+}
+
+.about-interests-container {
+  padding: 0.5rem 1.9rem;
+}
+
+.about-interests-container > h2 {
+  font-size: 1.2rem;
+  font-weight: 400;
+  padding: 0.4rem 0;
+}
+
+.about-interests-container > p {
+  font-size: 0.7rem;
+  font-weight: 300;
+  line-height: 1.5;
 }
