@@ -7,7 +7,7 @@ export default function Info() {
       <img src="/me.jpg" alt="my profile picture" />
       <h2>Erica Dayton</h2>
       <p>Fullstack Developer</p>
-      <a href="beeperdev.com" className="blocked">
+      <a href="https://beeperdev.com/" className="blocked">
         ericadayton.website
       </a>
       <a href="mailto:beeperdev.erica@gmail.com" className="btn email">
