@@ -97,14 +97,18 @@ a {
   line-height: 1.5;
 }
 
-.footer-container {
+.footer-flex-wrapper {
   font-size: 2rem;
   display: flex;
   justify-content: space-evenly;
   width: 75%;
   margin: 0 auto;
-  background: #161619;
   padding: 15px 0;
+}
+.footer-container {
+  background: #161619;
+  border-radius: 0 0 15px 15px;
+  margin-top: 1rem;
 }
 .footer-container > a {
   color: #918e9b;
